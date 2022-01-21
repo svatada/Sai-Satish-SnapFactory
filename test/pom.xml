@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <artifactId>snaps</artifactId>
+        <groupId>com.snaplogic</groupId>
+        <version>4.27</version>
+    </parent>
+    <groupId>com.snaplogic.snaps</groupId>
+    <artifactId>test</artifactId>
+    <packaging>jar</packaging>
+    <name>test</name>
+    <url>http://www.snaplogic.com</url>
+
+    <!-- Snap zip assembly descriptor -->
+    <build>
+        <finalName>${snap}</finalName>
+        <plugins>
+            <plugin>
+                <groupId>com.snaplogic.tools</groupId>
+                <artifactId>snappack-installer</artifactId>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>generate-schema</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+            <!-- Assembly instructions for creating snap zip -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-assembly-plugin</artifactId>
+            </plugin>
+            <!-- Add custom Manifest.mf file -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jar-plugin</artifactId>
+            </plugin>
+            <!-- Read the version from the directives file -->
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>properties-maven-plugin</artifactId>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-antrun-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
+
+    <properties>
+        <main.basedir>${project.basedir}/..</main.basedir>
+        <company>SnapLogic</company>
+        <snap>test</snap>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <!-- This is the build number for the ZIP, will be SNAPSHOT by default (
+             or whatever else is defined in Tectonic's pom.xml as the default value for
+             the sl_build property).
+
+             Use mvn install -Dsl_build=b1234 to change that.
+         -->
+        <package.build_no>${sl_build}</package.build_no>
+        <!-- This identifies the classes which represent the actual snaps
+             (and become accessible on the jcc after deployment).
+             Don't change the formatting, all classes must be within the same line as below.!
+         -->
+        <snap.classes>
+            com.snaplogic.snaps.test.CovertLeftBot,
+            com.snaplogic.snaps.test.CovertRightBot,
+            com.snaplogic.snaps.test.ErrorBot,
+            com.snaplogic.snaps.test.FailBot,
+            com.snaplogic.snaps.test.LinkErrorBot,
+            com.snaplogic.snaps.test.LeakyBot,
+            com.snaplogic.snaps.test.PropertyBot,
+            com.snaplogic.snaps.test.SinkBot,
+            com.snaplogic.snaps.test.SourceBot,
+            com.snaplogic.snaps.test.ValueSuggestBot,
+            com.snaplogic.snaps.test.ThrottleBot,
+            com.snaplogic.snaps.test.AssertEquals,
+            com.snaplogic.snaps.test.SystemState,
+            com.snaplogic.snaps.test.WarnBot,
+            com.snaplogic.snaps.test.MisconfiguredBot
+        </snap.classes>
+        <account.classes>
+            com.snaplogic.snaps.test.ValueSuggestAccount,
+            com.snaplogic.snap.api.sql.accounts.LeakyAccount
+        </account.classes>
+    </properties>
+    <!-- Dependencies -->
+    <dependencies>
+        <dependency>
+            <groupId>com.snaplogic</groupId>
+            <artifactId>jsdk</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.snaplogic</groupId>
+            <artifactId>jutils</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.snaplogic</groupId>
+            <artifactId>jsql</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.snaplogic</groupId>
+            <artifactId>jschema</artifactId>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.snaplogic</groupId>
+            <artifactId>jsnapi</artifactId>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+        <groupId>com.snaplogic</groupId>
+            <artifactId>jeditor</artifactId>
+        </dependency>
+        <!-- Joda time -->
+        <dependency>
+            <groupId>joda-time</groupId>
+            <artifactId>joda-time</artifactId>
+        </dependency>
+        <!-- Guava library for java collections -->
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+        </dependency>
+        <!-- Testing -->
+        <dependency>
+            <groupId>com.snaplogic</groupId>
+            <artifactId>jtest</artifactId>
+        </dependency>
+    </dependencies>
+</project>

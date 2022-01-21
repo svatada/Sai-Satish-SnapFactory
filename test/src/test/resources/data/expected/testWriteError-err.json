@@ -1,0 +1,24 @@
+{
+  "err": [
+    {
+      "error": "I always fail",
+      "ipod": {
+        "itemName": "ipod",
+        "quantity": 10
+      },
+      "reason": null,
+      "resolution": null,
+      "stacktrace": "com.snaplogic.snap.api.SnapDataException: I always fail"
+    },
+    {
+      "error": "I always fail",
+      "ipod": {
+        "itemName": "ipod",
+        "quantity": 10
+      },
+      "reason": null,
+      "resolution": null,
+      "stacktrace": "com.snaplogic.snap.api.SnapDataException: I always fail"
+    }
+  ]
+}

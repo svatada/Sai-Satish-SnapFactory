@@ -1,0 +1,62 @@
+{
+  "out" : [ {
+    "BASE_UOM" : "",
+    "BATCH" : "",
+    "BILL_BLOCK" : "",
+    "B_UOM_ISO" : "",
+    "CD_UNT_ISO" : "",
+    "COND_P_UNT" : 0,
+    "COND_UNIT" : "",
+    "CREATION_DATE" : {
+      "_snaptype_datetime" : "2014-09-03T00:00:00.000 America/Los_Angeles"
+    },
+    "CREATION_TIME" : {
+      "_snaptype_datetime" : "1970-01-01T17:02:41.000 America/Los_Angeles"
+    },
+    "CURRENCY" : "USD",
+    "CURR_ISO" : "USD",
+    "DISTR_CHAN" : "30",
+    "DIVISION" : "00",
+    "DLV_BLOCK" : "",
+    "DLV_QTY" : 0,
+    "DOC_DATE" : {
+      "_snaptype_datetime" : "2014-09-03T00:00:00.000 America/Los_Angeles"
+    },
+    "DOC_STATUS" : "Not delivered",
+    "DOC_TYPE" : "TA",
+    "EXCHG_RATE" : 1,
+    "EXCHG_RATE_V" : 0,
+    "GI_DATE" : null,
+    "ITM_NUMBER" : 0,
+    "MATERIAL" : "",
+    "MAT_EXT" : "",
+    "MAT_GUID" : "",
+    "MAT_VERS" : "",
+    "NAME" : "City Pharmacy",
+    "NET_PRICE" : 0,
+    "NET_VALUE" : 0,
+    "NET_VAL_HD" : 0,
+    "ORD_REASON" : "",
+    "PLANT" : "",
+    "PURCH_NO" : "006d0000006fHLEAA2",
+    "PURCH_NO_C" : "006d0000006fHLEAA2",
+    "REASON_REJ" : "",
+    "REQ_DATE" : null,
+    "REQ_QTY" : 0,
+    "SALES_GRP" : "341",
+    "SALES_OFF" : "3040",
+    "SALES_ORG" : "3020",
+    "SALES_UNIT" : "",
+    "SD_DOC" : "$SD_DOC",
+    "SHIP_POINT" : "",
+    "SHORT_TEXT" : "",
+    "SOLD_TO" : "0000003041",
+    "STATUS_DOC" : "A",
+    "STORE_LOC" : "",
+    "S_UNIT_ISO" : "",
+    "VALID_FROM" : null,
+    "VALID_TO" : {
+      "_snaptype_datetime" : "9999-12-31T00:00:00.000 America/Los_Angeles"
+    }
+  } ]
+}

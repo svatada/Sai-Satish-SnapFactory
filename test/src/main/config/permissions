@@ -1,0 +1,21 @@
+com.snaplogic.snaps.test.ErrorBot {
+    allow java.security.AllPermission;
+}
+com.snaplogic.snaps.test.FailBot {
+    allow java.security.AllPermission;
+}
+com.snaplogic.snaps.test.SinkBot {
+    allow java.security.AllPermission;
+}
+com.snaplogic.snaps.test.SourceBot {
+    allow java.security.AllPermission;
+}
+com.snaplogic.snaps.test.ValueSuggestBot {
+    allow java.security.AllPermission;
+}
+com.snaplogic.snaps.test.ThrottleBot {
+    allow java.security.AllPermission;
+}
+com.snaplogic.snaps.test.AssertEquals {
+    allow java.security.AllPermission;
+}

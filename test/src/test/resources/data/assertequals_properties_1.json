@@ -1,0 +1,7 @@
+{
+    "settings": {
+        "editable_content": {
+                "value": "[{\"msg\" : \"Hello, World\", \"num\": 1}, {\"msg\": \"Be happy\", \"num\" : 2}]"
+        }
+    }
+}

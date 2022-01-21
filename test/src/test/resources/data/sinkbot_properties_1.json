@@ -1,0 +1,7 @@
+{
+    "settings":{
+        "ack_type":{
+            "value":"ALL"
+        }
+    }
+}

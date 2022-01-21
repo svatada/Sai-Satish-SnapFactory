@@ -1,0 +1,10 @@
+{
+    "settings":{
+        "throttle_type":{
+            "value":"Logarithmic"
+        },
+        "speed":{
+            "value":1000
+        }
+    }
+}

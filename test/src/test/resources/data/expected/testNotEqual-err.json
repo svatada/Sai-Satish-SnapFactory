@@ -1,0 +1,18 @@
+{
+  "err": [
+    {
+      "error": "Expected and input data are not equal",
+      "expected": {
+        "msg": "Be happy",
+        "num": 2
+      },
+      "original": {
+        "msg": "What's up?",
+        "num": 3
+      },
+      "reason": "Expected and input data are not equal",
+      "resolution": "Please check expected and input data.",
+      "stacktrace": "com.snaplogic.snap.api.SnapDataException: Input data object is not as expected, Expected: {msg=Be happy, num=2}, Actual: {msg=What's up?, num=3}"
+    }
+  ]
+}

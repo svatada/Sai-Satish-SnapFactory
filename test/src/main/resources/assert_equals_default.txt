@@ -1,0 +1,15 @@
+## Enter your expected JSON-encoded data in this space.
+## "[]" is required, i.e. should be a List of objects.
+
+[
+    {
+##        "msg" : "Hello, World", "num" : 1
+    }
+]
+
+
+## Tips:
+##  * The sample data above will generate a single empty document, uncomment
+##    the line in the middle to include the sample fields.  Adding more
+##    objects to the root array will cause the snap to generate more
+##    than one document.

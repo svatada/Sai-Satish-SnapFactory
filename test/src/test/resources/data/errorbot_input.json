@@ -1,0 +1,16 @@
+{
+    "myView":[
+        {
+            "ipod":{
+                "itemName":"ipod",
+                "quantity":10
+            }
+        },
+        {
+            "ipod":{
+                "itemName":"ipod",
+                "quantity":10
+            }
+        }
+    ]
+}

@@ -1,0 +1,8 @@
+{
+  "err" : [ {
+    "error" : "Not enough input documents, expected size: 2",
+    "reason" : "The number of input documents is smaller than expected",
+    "resolution" : "Please check expected and input data.",
+    "stacktrace" : "com.snaplogic.snap.api.SnapDataException: Not enough input documents, expected size: 2"
+  } ]
+}

@@ -1,0 +1,16 @@
+{
+    "settings":{
+        "count":{
+            "value":2
+        },
+        "num_fields":{
+            "value":1
+        },
+        "value_type":{
+            "value":"date"
+        },
+        "value":{
+            "value":"2012-11-05"
+        }
+    }
+}

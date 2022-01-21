@@ -1,0 +1,10 @@
+{
+  "settings": {
+    "editable_content": {
+      "value": "[{\"SD_DOC\":$SD_DOC,\"ITM_NUMBER\":0,\"MATERIAL\":\"\",\"SHORT_TEXT\":\"\",\"DOC_TYPE\":\"TA\",\"DOC_DATE\":{\"_snaptype_datetime\":\"2014-09-03T00:00:00.000 America/Los_Angeles\"},\"REQ_QTY\":0,\"REQ_DATE\":null,\"PURCH_NO\":\"006d0000006fHLEAA2\",\"BATCH\":\"\",\"VALID_FROM\":null,\"VALID_TO\":{\"_snaptype_datetime\":\"9999-12-31T00:00:00.000 America/Los_Angeles\"},\"BILL_BLOCK\":\"\",\"DLV_BLOCK\":\"\",\"SOLD_TO\":\"0000003041\",\"NAME\":\"City Pharmacy\",\"EXCHG_RATE\":1,\"DLV_QTY\":0,\"BASE_UOM\":\"\",\"NET_PRICE\":0,\"COND_P_UNT\":0,\"COND_UNIT\":\"\",\"NET_VAL_HD\":0,\"NET_VALUE\":0,\"DIVISION\":\"00\",\"DOC_STATUS\":\"Not delivered\",\"SALES_GRP\":\"341\",\"SALES_OFF\":\"3040\",\"SALES_ORG\":\"3020\",\"SALES_UNIT\":\"\",\"SHIP_POINT\":\"\",\"DISTR_CHAN\":\"30\",\"GI_DATE\":null,\"CURRENCY\":\"USD\",\"PLANT\":\"\",\"STORE_LOC\":\"\",\"ORD_REASON\":\"\",\"REASON_REJ\":\"\",\"B_UOM_ISO\":\"\",\"CD_UNT_ISO\":\"\",\"S_UNIT_ISO\":\"\",\"CURR_ISO\":\"USD\",\"PURCH_NO_C\":\"006d0000006fHLEAA2\",\"EXCHG_RATE_V\":0,\"MAT_EXT\":\"\",\"MAT_GUID\":\"\",\"MAT_VERS\":\"\",\"CREATION_DATE\":{\"_snaptype_datetime\":\"2014-09-03T00:00:00.000 America/Los_Angeles\"},\"CREATION_TIME\":{\"_snaptype_datetime\":\"1970-01-01T17:02:41.000 America/Los_Angeles\"},\"STATUS_DOC\":\"A\"}]"
+    },
+    "evaluateWithInputDocument": {
+      "value": true
+    }
+  }
+}

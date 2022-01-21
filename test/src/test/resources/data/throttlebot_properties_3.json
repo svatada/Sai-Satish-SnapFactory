@@ -1,0 +1,10 @@
+{
+    "settings":{
+        "throttle_type":{
+            "value":"Exponential"
+        },
+        "speed":{
+            "value":100
+        }
+    }
+}
